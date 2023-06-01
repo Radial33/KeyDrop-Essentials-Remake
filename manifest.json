@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "KeyDrop Essentials",
+    "description": "Enchances your experience with KeyDrop by adding some useful features.",
+    "author": "Original author: Roki_100 Remake done by: Radial",
+    "version": "0.2",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://key-drop.com/*",
+            "http://key-drop.com/*",
+            "https://key-drop.gg/*",
+            "http://key-drop.gg/*"
+          ],
+          "js": ["jquery-3.6.0.min.js", "main.js"]
+        }
+    ]
+}
